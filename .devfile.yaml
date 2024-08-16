@@ -1,6 +1,10 @@
 schemaVersion: 2.2.2
 metadata:
   name: ds-plugin-registry-dev
+attributes:
+    controller.devfile.io/devworkspace-config:
+      name: custom-dwoc
+      namespace: aobuchow-che-1cac83
 components:
   - name: builder
     container:
