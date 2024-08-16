@@ -8,7 +8,7 @@ attributes:
 components:
   - name: builder
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      image: quay.io/aobuchow/universal-developer-image:udi-local-david-pr
       memoryRequest: 256Mi
       memoryLimit: 8Gi
       cpuRequest: 100m
